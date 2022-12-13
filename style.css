@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    margin-right: 0%;
+    margin-left: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center ;
+}
+    .logo{
+        width: 50px;
+        cursor: pointer;
+        margin: 30px ;
+    }
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+    margin: 30px;
+    display: none;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+nav ul li a:hover{
+    color: crimson;
+}
+.ad{
+    justify-content: center;
+    align-items: center;
+
+}
+.advertise{
+    width: max-content;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100PX 0;
+}
+.col1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 100PX;
+}
+.col1 P{
+    font-size: 16PX;
+    color: #B7B7B7;
+    font-weight: 100;
+    margin: 10px;
+}
+.ex{
+    margin: 30px;
+}
+.col1 H2{
+    font-size: 54PX;
+
+    
+}
+.col1 h3{
+    font-size: 30px;
+    color: #707070;
+    font-weight: 100;
+    margin: 20px 0 10px;
+}
+BUTTon{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+   color: #fff;
+   background: linear-gradient( to right, #f87fa1, #ff3527);
+   border-radius: 10px;
+   cursor: pointer;
+   transition: width 0.5s;
+}
+BUTTon:hover{
+    width: 180px;
+}
+.col1::after{
+    content: '';
+    width: 10px;
+    height: 57%;
+    background: linear-gradient( #ec8143, #fa1403);
+    position: absolute;
+    left: -40px;
+    top: 8px;
+}
+.col2{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+.SOLO{
+position: absolute;
+}
+.ex{
+    display: flex;
+}
+.body{
+    max-width: 100vh;
+    max-height: 100vh;
+    height: 200px;
+}
+.ends{
+    position: relative;
+   left: 600px;
+   top: 200px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none;
+}
+.mail{
+    color:white;
+}
+.tele{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+}
+.telegram{
+    color: white;
+}
+.com{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.comm{
+    color: white;
+}
+.botom{
+    align-items: center;
+    justify-content: center;
+    
+}
+.bottom{
+    background-color: black;
+   display: flex;
+}
+.COMPANY{
+    background-color: black;
+}
+@media only screen and (max-width:700px){
+    nav ul{
+        width: 100%;
+        background:  linear-gradient( #ec8143, #fa1403);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+        border-radius: 10px;
+        width: 100px;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+    }
+
+    #menulist{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    .col1{
+        margin: 50px;
+    }
+    .col1 H2{
+        font-size: 27px;
+    }
+    .col1 h3{
+        font-size: 15px;}
+
+        .SOLO{
+            width: 100%;
+            height: fit-content;
+
+        }
+        .ends{
+            display: grid;
+            color: black;
+            position: relative;
+            top: 600px;
+           left: -0px;
+           margin: 20px;
+           font-size: 16px;
+           margin-bottom: 29px;
+        }
+        .ex{
+            display: grid;
+            margin: 20px;
+            
+        }
+        .mail{
+            display: grid;
+            color: black;
+            text-decoration: none;
+        }
+   
+        .telegram{
+            color: #000;
+            text-decoration: none;
+        }
+        .com{
+            color: #000;
+            text-decoration: none;
+        }
+      .advertise{
+        display: none;
+      }
+      .MAKE-OWN{
+        display: none;
+      }
+      .cool h2{
+        display: none;
+      }
+    .nich{
+        display: none;
+    }
+    .b{
+        display: none;
+    }
+    .c02 h3{
+        display: none;
+    }
+    .c02 h2{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    .dis{
+        display: none;
+    }
+.comm{
+    color: #000;
+    text-decoration: none;
+}
+.botom{
+    width: 300px;
+    
+}
+
+
+}
+.advertise{
+    width: 80vh;
+}
+.MAKE-OWN{
+    width: 80vh;
+}
+.ad{
+    display: flex;
+}
+.body{
+    margin: 10px;
+}
+.ad-ad{
+    display: flex;
+ margin-bottom: 80px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.cool h2{
+    font-size: 80px;
+}
+.c0l h3{
+    font-size: 30px;
+    font-family: cursive;
+    color: rgb(126, 120, 120);
+}
+.cool2{
+    display: flex;
+    margin-left: 150px;
+ position: relative;
+    bottom: 20px;
+}
+.cool2 h2{
+    font-size: 80px;
+}
+.cool2 h3{
+    font-size: 30px;
+    font-family: cursive;
+    color: rgb(126, 120, 120);
+
+}
+hr{
+    width: 800px;
+    margin: 30px;
+    position: relative;
+    display: flex;
+    left: 300px;
+}
